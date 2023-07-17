@@ -1,0 +1,7 @@
+<template>
+    <div class="slds-grid slds-grid_align-center">
+        <!-- <lightning-input type="text" value={input}  onchange={handleClick} label="Enter some text"></lightning-input> -->
+        <lightning-badge class="slds-m-right_xx-small slds-p-right_medium slds-p-left_medium badge" onclick={handleCopy} label={input}></lightning-badge>
+        <lightning-button-icon class="slds-m-left_xxx-small" icon-name="utility:copy"  alternative-text="Copy" variant="brand" onclick={handleCopy} title="Copy"></lightning-button-icon>
+    </div>
+</template>
